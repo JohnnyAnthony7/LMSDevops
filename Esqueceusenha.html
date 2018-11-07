@@ -1,0 +1,27 @@
+﻿{% extends 'base.html' %}
+{% block content %}
+
+        <!-----Colocar o conteúdo da página aqui-->
+		<br/><br/>
+		<div class="img">
+		{% load static %}
+		<img src="{% static 'images/logoimpacta.png' %}" height="auto" width="auto" border='0'/>
+		</div>
+          
+		<div class="h4">Para redefinir sua senha, digite o seu endereço de e-mail. 
+(O mesmo e-mail cadastrado no ato de sua matrícula)</div>
+                
+                <div class="acesso">
+		E-mail <input type="email"></center>
+                </div>
+                <div class="btn">
+		<input type="submit" value="ENVIAR"/><br/><br/>
+                </div>
+
+
+
+
+
+
+
+{% endblock content %}
