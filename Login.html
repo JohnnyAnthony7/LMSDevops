@@ -1,28 +1,52 @@
-﻿{% extends 'base.html' %}
-{% block content %}
-
-        <!-----Colocar o conteúdo da página aqui-->
+﻿<!DOCTYPE html>
+          <html>
+          <head>
+              <meta charset= "UTF-8">
+              <link rel="stylesheet" href="style.css">
+              <title>Faculdade Impacta Tecnologia</title>    
+              
+              
+          
+          </head>
+          <body>
+                 
+                  
+              <body background = "stars.jpeg"> 
+              
+              <div class ="menu">
+                  <ul>
+                      <img src="logoimpacta.png">
+                      <li><a href ="index.html">Home</a></li>
+                      <li><a href = "cadastro.html">Cadastro</a></li>
+                            <li><a href = "login.html">Login</a></li>
+                  </ul>
+          
+          
+                  <div class="conteudo">
+          
+          
+                          <!-----Colocar o conteúdo da página aqui-->
 	
           <div class="img">	
-        <br/><br/>
-        {% load static %}
-		<img src="{% static 'fonts/logoimpacta.png' %}" height="auto" width="auto" border='0'/></center><br/><br/>
-          </div>
-          <div class="acesso">
-		Login <input type="login"><br/><br/>
-                Senha <input type="password"><br/>
-          </div>
-          <div class="link">
-		<a href = "{% url 'esqueceuSenha' %}">Esqueceu a senha?</a><br/><br/>
-          </div>
-          <div class="btn">
-                <input type="submit" value="FAZER LOGIN"/><br/><br/>
-          </div>
+                  <br/><br/>
+                      <img src="logoimpacta.png" height="auto" width="auto" border='0'/></center><br/><br/>
+                    </div>
+                    <div class="acesso">
+                      Login <input type="login"><br/><br/>
+                          Senha <input type="password"><br/>
+                    </div>
+                    <div class="link">
+                      <a href = "esqueceuSenha.html">Esqueceu a senha?</a><br/><br/>
+                    </div>
+                    <div class="btn">
+                          <input type="submit" value="FAZER LOGIN"/><br/><br/>
+                    </div>
+          
+                  
           
           
-           
-
-
-
-
-{% endblock content %}
+                  </div>
+          
+          
+          </body>
+          </html>

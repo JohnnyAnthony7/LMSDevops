@@ -1,15 +1,50 @@
-﻿{% extends 'base.html' %}
-{% block content %}
+﻿
 
-<center>
-             
-    <div class="h1">Selecione uma Opção</div><br/>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset= "UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Faculdade Impacta Tecnologia</title>    
     
-    <div class="box box-1">
-          <a href="{% url 'cadastroAluno' %}">Cadastro de Alunos</a>
-          <a href="{% url 'cadastroProfessor' %}">Cadastro de Professores</a>
-          <a href="{% url 'cadastroDisciplina' %}">Cadastro de Disciplinas</a>
-    </div>
-</center>
+    
 
-{% endblock content %}
+</head>
+<body>
+       
+        
+    <body background = "stars.jpeg"> 
+    
+    <div class ="menu">
+        <ul>
+            <img src="logoimpacta.png">
+            <li><a href ="index.html">Home</a></li>
+            <li><a href = "cadastro.html">Cadastro</a></li>
+			<li><a href = "login.html">Login</a></li>
+        </ul>
+
+
+        <div class="conteudo">
+
+
+                <center>
+             
+                        <div class="h1">Selecione uma Opção</div><br/>
+                        
+                        <div class="box box-1">
+                              <a href="cadastroAlunos.html">Cadastro de Alunos</a>
+                              <a href="cadastroProfessores.html">Cadastro de Professores</a>
+                              <a href="cadastroDisciplinas.html">Cadastro de Disciplinas</a>
+                        </div>
+                    </center>
+
+        
+
+
+        </div>
+
+
+</body>
+</html>

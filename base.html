@@ -2,12 +2,8 @@
 <html>
 <head>
     <meta charset= "UTF-8">
-    {% load static %}
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    {% block title %}
-    <title>Faculdade Impacta Tecnologia</title>
-    {% endblock title %}
-    
+    <title>Faculdade Impacta Tecnologia</title>    
     
     
 
@@ -19,7 +15,6 @@
     
     <div class ="menu">
         <ul>
-                {% load static %}
             <img src="{% static 'fonts/logoimpacta.png' %}">
             <li><a href ="{% url 'home' %}">Home</a></li>
             <li><a href = "{% url 'cadastro' %}">Cadastro</a></li>
@@ -29,12 +24,10 @@
 
 
         <div class="conteudo">
-        {% block content %}
 
         
 
 
-        {% endblock content %}
         </div>
 
 

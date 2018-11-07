@@ -1,11 +1,35 @@
-﻿{% extends 'base.html' %}
-{% block content %}
-
-        <!-----Colocar o conteúdo da página aqui-->
+﻿<!DOCTYPE html>
+		<html>
+		<head>
+		    <meta charset= "UTF-8">
+		    <link rel="stylesheet" href="style.css">
+		    <title>Faculdade Impacta Tecnologia</title>    
+		    
+		    
+		
+		</head>
+		<body>
+		       
+			
+		    <body background = "stars.jpeg"> 
+		    
+		    <div class ="menu">
+			<ul>
+			    <img src="logoimpacta.png">
+			    <li><a href ="index.html">Home</a></li>
+			    <li><a href = "cadastro.html">Cadastro</a></li>
+					<li><a href = "login.html">Login</a></li>
+			</ul>
+		
+		
+			<div class="conteudo">
+		
+		
+				
 		<br/><br/>
 		<div class="img">
-		{% load static %}
-		<img src="{% static 'images/logoimpacta.png' %}" height="auto" width="auto" border='0'/>
+		
+		<img src="logoimpacta.png" height="auto" width="auto" border='0'/>
 		</div>
           
 		<div class="h4">Para redefinir sua senha, digite o seu endereço de e-mail. 
@@ -18,10 +42,12 @@
 		<input type="submit" value="ENVIAR"/><br/><br/>
                 </div>
 
-
-
-
-
-
-
-{% endblock content %}
+		
+			
+		
+		
+			</div>
+		
+		
+		</body>
+		</html>
